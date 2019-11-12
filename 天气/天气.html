@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./plug/css/iconfont.css"> -->
+    <link rel="stylesheet" href="./css/intex.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+
+<body>
+    <div class="weather">
+        <div class="nav">
+            <div class="system-nav"></div>
+            <div class="w-nav">
+                <div class="fl">
+                    <span class="fl icons"></span>
+                    <span class="fl city"></span>
+                </div>
+                <div class="fl search">
+                    <input type="text" class="fl inp">
+                    <span class="fl search-icon"></span>
+                </div>
+            </div>
+        </div>
+        <div class="w-box">
+            <div class="current clearfix">
+                <div class="clearfix weekday">
+                    <span class="fl date"></span>
+                    <span class="fl week days"></span>
+                </div>
+                <div class="temp clearfix">
+                    <div class="today qing wea"></div>
+                    <h1 class="fl tem"> </h1>
+                    <div class="status-text clearfix">
+                        <span class="fl air_level"></span>
+                    </div>
+                </div>
+                <div class="w-winds clearfix ">
+                    <span class="fl win"></span>
+                    <span class="fl winds win_speed num "></span>
+                    <span class="fl win_meter"></span>
+                </div>
+            </div>
+            <div class="hour">
+                <div class="hours-title">24小时天气</div>
+                <div class="hours-weather">
+                    <ul id="hoursWeather" class="clearfix">
+                        <!-- <li>
+                            <div>09时</div>
+                            <div class="hours-icon"></div>
+                            <div>20℃</div>
+                            <div>无持续风向</div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="weeks">
+                <div class="week-title hours-title">未来6天天气</div>
+                <div class="week-box">
+                    <ul id="week-weather">
+                        <!-- <li class="clearfix">
+                            <span>21日</span>
+                            <span>
+                                <i class="week-icon"></i>
+                            </span>
+                            <span>20℃</span>
+                            <span>无持续风向</span>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/rem.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
